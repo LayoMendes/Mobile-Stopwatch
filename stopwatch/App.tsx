@@ -81,7 +81,7 @@ export default function App() {
         <View style={styles.socialCardsContainer}>
           <TouchableOpacity
             style={[styles.socialCard, { backgroundColor: "#25D366" }]}
-            onPress={() => openLink("https://wa.me/SEUNUMERO")}
+            onPress={() => openLink("https://wa.me/3499755319")}
           >
             <Entypo name="chat" size={28} color="#fff" />
             <View style={styles.socialTextContainer}>
@@ -94,7 +94,7 @@ export default function App() {
 
           <TouchableOpacity
             style={[styles.socialCard, { backgroundColor: "#0077B5" }]}
-            onPress={() => openLink("https://www.linkedin.com/in/SEUNOME")}
+            onPress={() => openLink("https://www.linkedin.com/in/layo-mendes-0319a6263/")}
           >
             <Entypo name="linkedin" size={28} color="#fff" />
             <View style={styles.socialTextContainer}>
@@ -107,7 +107,7 @@ export default function App() {
 
           <TouchableOpacity
             style={[styles.socialCard, { backgroundColor: "#333" }]}
-            onPress={() => openLink("https://github.com/SEUNOME")}
+            onPress={() => openLink("https://github.com/LayoMendes")}
           >
             <FontAwesome name="github" size={28} color="#fff" />
             <View style={styles.socialTextContainer}>
